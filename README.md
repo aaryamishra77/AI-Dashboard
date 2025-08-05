@@ -1,0 +1,1 @@
+Due to free-tier API limitations and to ensure consistent functionality during assessment, the AI Insight section uses mocked data simulating an API response.
