@@ -1,7 +1,27 @@
 
-# AI-Powered Analytics Dashboard
+## 🤖 AI Feature Implementation
 
-An interactive web dashboard that visualizes key analytics and generates insights using HuggingFace's AI model.
+This project includes an **AI-powered insights section** that is designed to generate automated reports from user analytics data.
+
+### 🔧 Technical Details:
+- Integrated with Hugging Face `gpt2` model using `fetch()` and Bearer Token.
+- The function `generateInsight()` sends POST requests with input prompts.
+- Due to API key protection and Hugging Face rate limits, **mocked responses** are currently shown for demonstration.
+
+### ⚙️ How It Works in Code:
+- The UI has a working "Generate Insight" button.
+- API logic is fully implemented.
+- If a valid API key is added to `.env`, live AI generation will start working instantly.
+
+### 🧪 Why Mocked Instead of Live?
+- Hugging Face free-tier has limits on public tokens.
+- GitHub blocks pushes with secret keys for security.
+- Mocking ensures functional presentation without exposing private data.
+
+---
+
+> ✅ AI logic implemented, UI functional, and ready for production with live key.
+
 
 ## 🚀 Live Demo
 [🔗 Visit the deployed app](https://ai-dasboard.netlify.app/)
